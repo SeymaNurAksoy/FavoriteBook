@@ -13,6 +13,8 @@
 		638C7FB6262E482F00152020 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638C7FB5262E482F00152020 /* Assets.xcassets */; };
 		638C7FB9262E482F00152020 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 638C7FB8262E482F00152020 /* Preview Assets.xcassets */; };
 		638C7FBC262E482F00152020 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 638C7FBA262E482F00152020 /* LaunchScreen.storyboard */; };
+		638C7FC5262E485D00152020 /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638C7FC4262E485D00152020 /* FavoriteModel.swift */; };
+		638C7FC8262E4F3900152020 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638C7FC7262E4F3900152020 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		638C7FB8262E482F00152020 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		638C7FBB262E482F00152020 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		638C7FBD262E482F00152020 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		638C7FC4262E485D00152020 /* FavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
+		638C7FC7262E4F3900152020 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 			children = (
 				638C7FAF262E47E700152020 /* AppDelegate.swift */,
 				638C7FB1262E47E700152020 /* SceneDelegate.swift */,
+				638C7FC7262E4F3900152020 /* DetailsView.swift */,
 				638C7FB3262E47E700152020 /* ContentView.swift */,
 				638C7FB5262E482F00152020 /* Assets.xcassets */,
+				638C7FC4262E485D00152020 /* FavoriteModel.swift */,
 				638C7FBA262E482F00152020 /* LaunchScreen.storyboard */,
 				638C7FBD262E482F00152020 /* Info.plist */,
 				638C7FB7262E482F00152020 /* Preview Content */,
@@ -146,8 +152,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				638C7FB0262E47E700152020 /* AppDelegate.swift in Sources */,
+				638C7FC8262E4F3900152020 /* DetailsView.swift in Sources */,
 				638C7FB2262E47E700152020 /* SceneDelegate.swift in Sources */,
 				638C7FB4262E47E700152020 /* ContentView.swift in Sources */,
+				638C7FC5262E485D00152020 /* FavoriteModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
